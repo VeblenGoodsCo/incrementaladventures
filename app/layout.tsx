@@ -4,8 +4,8 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
-  title: "(ad)ventures - Entrepreneurial Journey",
-  description: "Navigating the winding path of entrepreneurship with passion, vision, and innovation.",
+  title: "incremental (ad)ventures",
+  description: "Navigating the weird and winding path of life and entrepreneurship.",
 }
 
 export default function RootLayout({
