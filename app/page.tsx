@@ -23,7 +23,7 @@ export default function Home() {
               <span className="text-xl font-bold text-yellow-400 font-display">(ad)ventures</span>
             </div>
           </div>
-          <nav className="flex gap-6">
+          <nav className="flex gap-8">
             {["hold", "build", "nurture", "dig", "grow"].map((item, i) => (
               <Link key={i} href={`#${item}`} className="text-sm font-medium font-display hover:text-yellow-400">
                 {item}
