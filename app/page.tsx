@@ -39,12 +39,12 @@ export default function Home() {
           <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h1 className="text-5xl md:text-7xl font-bold font-display mb-6">
-                <span className="text-yellow-400">Your</span> Path Is
+                <span className="text-yellow-400">Our</span> Path Is
                 <span className="block text-blue-400">Under</span>
                 <span className="block text-green-400">Construction</span>
               </h1>
               <p className="text-xl text-gray-300 max-w-md font-body">
-                Navigating the winding path of entrepreneurship with passion, vision, and innovation.
+                Navigating the weird and winding path of life and entrepreneurship.
               </p>
               <div className="mt-8">
                 <div className="inline-block bg-yellow-400 text-black font-bold py-3 px-6 rounded-full font-display">
@@ -73,33 +73,33 @@ export default function Home() {
                 <h2 className="text-3xl font-bold font-display">Things We Hold</h2>
               </div>
               <p className="text-center text-black max-w-2xl mx-auto font-body">
-                Our portfolio holding company showcases businesses we operate and nurture to success.
+                Our holding company features awesome businesses we have acquired and currently operate.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 {
-                  title: "TechNova",
-                  description: "Innovative software solutions for emerging markets",
+                  title: "Project Spark",
+                  description: "Digital Teacher Training Platform",
                   icon: "💻",
                   color: "bg-blue-500",
                 },
                 {
-                  title: "GreenPath",
-                  description: "Sustainable living products and services",
+                  title: "Project TBD1",
+                  description: "Education TBD",
                   icon: "🌱",
                   color: "bg-green-500",
                 },
                 {
-                  title: "UrbanPulse",
-                  description: "Smart city infrastructure and planning",
+                  title: "Project TBD2",
+                  description: "GovTech TBD",
                   icon: "🏙️",
                   color: "bg-red-500",
                 },
                 {
-                  title: "WaveDigital",
-                  description: "Digital transformation consultancy",
+                  title: "Project TBD3",
+                  description: "Parenting TBD",
                   icon: "🌊",
                   color: "bg-purple-500",
                 },
@@ -127,27 +127,27 @@ export default function Home() {
                 <h2 className="text-3xl font-bold font-display">Things We Build</h2>
               </div>
               <p className="text-center text-white max-w-2xl mx-auto font-body">
-                Companies we've built with AI and no-code tools, transforming ideas into reality.
+                Companies we've built with AI and no-code tools, mostly just trying to solve our own problems.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "AICanvas",
-                  description: "AI-powered design tools for creative professionals",
+                  title: "CountryOut",
+                  description: "Expat Concierge, Especially For Parents",
                   icon: "🎨",
                   color: "bg-yellow-400 text-black",
                 },
                 {
-                  title: "NoCodeNexus",
-                  description: "Platform for building applications without coding",
+                  title: "Project TBD1",
+                  description: "Scratching My Own Itch1",
                   icon: "🧩",
                   color: "bg-black text-white",
                 },
                 {
-                  title: "DataSculpt",
-                  description: "Data visualization and analytics for businesses",
+                  title: "Project TBD2",
+                  description: "Scratching My Own Itch2",
                   icon: "📊",
                   color: "bg-green-400 text-black",
                 },
@@ -175,21 +175,21 @@ export default function Home() {
                 <h2 className="text-3xl font-bold font-display">Things We Nurture</h2>
               </div>
               <p className="text-center text-black max-w-2xl mx-auto font-body">
-                Companies we believe in and have invested in, supporting their growth journey.
+                Companies led by people we believe in - we have made an investment to support their growth.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {[
                 {
-                  title: "EcoSphere",
-                  description: "Environmental monitoring and conservation technology",
+                  title: "Investment1",
+                  description: "Investment TBD1",
                   icon: "🌍",
                   color: "bg-blue-500",
                 },
                 {
-                  title: "MindfulTech",
-                  description: "Mental wellness applications and services",
+                  title: "Investment2",
+                  description: "Investment TBD2",
                   icon: "🧠",
                   color: "bg-purple-500",
                 },
@@ -217,7 +217,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold font-display">Things We Dig</h2>
               </div>
               <p className="text-center text-black max-w-2xl mx-auto font-body">
-                Our criteria for selecting and investing in companies that align with our vision.
+                What we're looking for in the compaies we adore.
               </p>
             </div>
 
@@ -226,27 +226,27 @@ export default function Home() {
                 {
                   title: "Industries",
                   description:
-                    "We focus on tech, sustainability, health, and education sectors with potential for innovation and impact.",
+                    "We love anything related to education, parenting, and women.",
                   icon: "🏭",
                   color: "bg-blue-500",
                 },
                 {
                   title: "Financials",
-                  description: "Strong unit economics, clear path to profitability, and sustainable growth metrics.",
+                  description: "We focus exclusively on profitable companies.",
                   icon: "📊",
                   color: "bg-yellow-400 text-black",
                 },
                 {
                   title: "Tenure",
                   description:
-                    "Companies with proven track records and experienced leadership teams committed to long-term vision.",
+                    "We love to see at least 3 years of history (unless we built it ourselves of course).",
                   icon: "⏱️",
                   color: "bg-purple-500",
                 },
                 {
                   title: "Vision",
                   description:
-                    "Bold, innovative ideas that challenge the status quo and have potential for significant positive impact.",
+                    "We always aim to be additive, never extractive.",
                   icon: "🔭",
                   color: "bg-green-500",
                 },
@@ -273,34 +273,34 @@ export default function Home() {
                 <h2 className="text-3xl font-bold font-display">Things We Grow</h2>
               </div>
               <p className="text-center text-white max-w-2xl mx-auto font-body">
-                Our values, mission, and the people behind incremental (ad)ventures.
+                Who we work with and learn from, and how to learn more about us.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 {
-                  title: "Founder",
+                  title: "Team",
                   description:
-                    "Meet our visionary founder and learn about the journey that led to incremental (ad)ventures.",
+                    "The incremental (ad)venturer(s).",
                   icon: "👤",
                   color: "bg-blue-400",
                 },
                 {
                   title: "Blog",
-                  description: "Insights, thoughts, and stories from our entrepreneurial journey.",
+                  description: "What's on our minds at random intervals.",
                   icon: "✍️",
                   color: "bg-yellow-400 text-black",
                 },
                 {
                   title: "Partners",
-                  description: "The collaborators and tools that help us bring our vision to life.",
+                  description: "Who we literally work with, and others who have supported us along the way through their work.",
                   icon: "🤝",
                   color: "bg-green-400 text-black",
                 },
                 {
                   title: "Contact",
-                  description: "Reach out to us with your ideas, questions, or partnership opportunities.",
+                  description: "How to connect with us.",
                   icon: "📧",
                   color: "bg-pink-400 text-black",
                 },
@@ -341,7 +341,7 @@ export default function Home() {
           </div>
           <div className="text-center md:text-right">
             <p className="font-body">© 2025 incremental (ad)ventures. Made with passion in NYC.</p>
-            <p className="mt-1 text-yellow-400 font-body">Good vibes and ideas energize us - reach out</p>
+            <p className="mt-1 text-yellow-400 font-body">Energized by good vibes and rad ideas</p>
           </div>
         </div>
       </footer>
